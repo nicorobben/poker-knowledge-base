@@ -1,0 +1,32 @@
+# Scratch / planning
+plans/*
+!plans/.gitkeep
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node (in case tooling shows up later)
+node_modules/
+
+# Env
+.env
+.env.local
+
+# Build artifacts (if static-site generation is added later)
+_site/
+.cache/
+dist/
+
+# Python (in case we add drill-generation scripts etc.)
+__pycache__/
+*.pyc
+.venv/
+venv/
